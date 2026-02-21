@@ -89,5 +89,3 @@ export function generateReportCard(student) {
   };
 
 };
-
-console.log(generateReportCard({ name: "Priya", marks: { maths: 'englisht', science: 11 } }))
