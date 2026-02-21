@@ -88,3 +88,4 @@ export function analyzeUPITransactions(transactions) {
 
   return { totalCredit, totalDebit, netBalance, transactionCount, avgTransaction, highestTransaction, categoryBreakdown, frequentContact, allAbove100, hasLargeTransaction }
 };
+

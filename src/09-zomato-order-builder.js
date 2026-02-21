@@ -89,10 +89,3 @@ export function buildZomatoOrder(cart, coupon) {
     grandTotal
   }
 };
-
-console.log(buildZomatoOrder(
-  [{ name: "A", price: 200, qty: 1, addons: [] }],
-  "FREESHIP"
-))
-
-
